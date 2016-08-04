@@ -5,10 +5,11 @@ public class Employer {
 	private String iD;
 	private String dob;
 	
-	public Employer(String id, String name) {
+	public Employer(String id, String name, String dob) {
 		this.iD = id;
 		this.name = name;
-	}	
+		this.dob = dob;
+	}
 	
 	public String getName() {
 		return name;
