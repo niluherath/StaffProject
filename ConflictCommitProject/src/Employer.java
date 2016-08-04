@@ -12,7 +12,7 @@ public class Employer {
 	}
 	
 	public String getName() {
-		System.out.println("Hi everybody");
+		System.out.println("Commit by A");
 		return name;
 	}
 	public void setName(String name) {
