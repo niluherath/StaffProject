@@ -12,6 +12,7 @@ public class Employer {
 	}
 	
 	public String getName() {
+		System.out.println("Hi everybody");
 		return name;
 	}
 	public void setName(String name) {
